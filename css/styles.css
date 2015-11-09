@@ -25,6 +25,11 @@ by Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel */
   color: gray;
 }
 
+.nav-icons {
+  color: gray;
+  padding-right: 10px;
+}
+
 .nav-text {
   text-decoration: none;
   color: white;
