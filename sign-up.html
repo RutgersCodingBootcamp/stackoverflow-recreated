@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stackoverflow 2.0</title>
+  <meta project = "Recreate Stack Overflow Home Page using Bootstrap">
+  <meta authors = "Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <!-- Bootstrap Optional Theme-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse"> <!-- Navbar by Shreyans Patel -->
+    <section class="container">
+      <header class="navbar-header">
+        <a href="/" class="navbar-brand">
+          <img src="images/rutgers.png" width="25" />
+        </a>
+      </header>
+      <ul class="nav navbar-nav">
+        <li><a href="inbox.html"><img src="images/inbox.png" width="20"></a></li>
+        <li><a href="messages.html"><img src="images/achievements.png" width="16"></a></li>
+       </ul>
+       <ul class="navbar-form navbar-right" role="search">
+         <div class="form-group">
+           <input type="text" class="form-control" placeholder="Search">
+         </div>
+       </ul>
+    </section>
+  </nav>
+  <section class="container"> <!-- Header by Sean Conaty -->
+    <div class= "col-md-12"> 
+      <nav class="navbar-header">
+        <div class= "img-responsive">
+          <a href="home.html" class="navbar-brand">
+            <img src="images/logo.png" width="100%" />
+          </a>
+        </div>
+      </nav>
+    <div class="navbar-form navbar-right">
+      <button class="btn btn-link">
+        <a href="#" class="btn btn-default active" role="button">Questions</a> 
+        <a href="#" class="btn btn-default active" role="button">Tags</a> 
+        <a href="#" class="btn btn-default active" role="button">Users</a>
+        <a href="#" class="btn btn-default active" role="button">Badges</a> 
+        <a href="#" class="btn btn-default active" role="button">Unanswered</a> 
+        <a href="#" class="btn btn-default active" role="button">Ask Question</a> 
+      </button>
+    </div>
+  </section>
+  <main class = "container"> <!-- Sign up form by Darryl Mendonez -->
+    <div class = "row-fluid"> <!-- Tabs -->
+      <div class = "col-md-12">
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="#">Log in</a></li>
+          <li role="presentation" class="active"><a href="#">Sign up</a></li>
+        </ul>
+        <h4 id = "form-title">Stack Overflow is part of the <img src="https://cdn.sstatic.net/img/se-logo.png" width = "200px"/> network of 149  Q&A <a href = "https://stackexchange.com/sites" target = "blank">communities</a>.</h4>
+      </div> <!-- end col-md-12 -->
+    </div> <!-- End tabs row -->
+    <div class = "row"> <!-- Form -->
+      <div class = "col-md-4">
+        
+      </div>
+      <div class = "col-md-4 panel panel-default">
+        <form>
+          <br />
+          <div class = "form-group">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-danger"><i class="fa fa-google"></i></button>
+              <button type="button" class="btn btn-danger">Google</button>
+            </div>
+            <div class="btn-group float-right" role="group" aria-label="...">
+              <button type="button" class="btn btn-primary"><i class="fa fa-facebook"></i></button>
+              <button type="button" class="btn btn-primary">Facebook</button>
+            </div>
+          </div> <!-- End Social Media buttons -->
+          <div class = "form-group">
+            <p class = "or">or</p>
+            <hr>
+          </div>
+          <div class="form-group">
+            <div class="form-group">
+              <label for="display-name">Display Name</label>
+              <input type="name" class="form-control" id="display-name" placeholder="J. Doe">
+            </div>
+            <label for="email">Email (required but never shown)</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.org">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
+          </div>
+          <a href = "#">more sign up options</a>
+          <button type="submit" class="btn btn-primary float-right">Sign up</button><br />
+          <br />
+          <p class = "align-center">By registering, you agree to the <a href = "http://stackexchange.com/legal/privacy-policy" target = "blank">privacy policy</a> and <a href = "http://stackexchange.com/legal/terms-of-service" target = "blank">terms of service</a>.
+        </form>
+      </div>
+      <div class = "col-md-4">
+        
+      </div>
+    </div> <!-- End form row -->
+    <div class = "col-md-4">
+        
+    </div>
+    <div class = "col-md-4 panel panel-default">
+      <p class = "align-center">Already have an account? <a href = "log-in.html">Log in</a></p>
+    </div>
+    <div class = "col-md-4">
+        
+    </div>
+  </div> <!-- End form -->
+  </main> <!-- End main area -->
+   <!-- JQuery Script (Required for JavaScript Below)-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <!-- JavaScript-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+</html>

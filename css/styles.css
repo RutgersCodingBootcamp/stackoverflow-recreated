@@ -12,8 +12,17 @@ by Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel */
     border: none !important;
 }
 
-.asked {
+.asked, .float-right {
   float:right;
+}
+
+#form-title, .align-center {
+  text-align: center;
+}
+
+.or {
+  text-align: center;
+  color: gray;
 }
 
 /* Shreyans Patel's CSS styles: */
