@@ -17,7 +17,7 @@ by Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel */
 }
 
 #form-title, .align-center {
-  text-align: center;
+  text-align: center;;
 }
 
 .or {
@@ -28,6 +28,7 @@ by Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel */
 .nav-text {
   text-decoration: none;
   color: white;
+  padding-right: 10px;
 }
 
 /* Shreyans Patel's CSS styles: */
