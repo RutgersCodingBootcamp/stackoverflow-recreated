@@ -25,6 +25,11 @@ by Darryl Mendonez, David Stichter, Sean Conaty, and Shreyans Patel */
   color: gray;
 }
 
+.nav-text {
+  text-decoration: none;
+  color: white;
+}
+
 /* Shreyans Patel's CSS styles: */
 
 .navbar-brand {
